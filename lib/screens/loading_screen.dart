@@ -30,9 +30,15 @@ class _LoadingScreenState extends State<LoadingScreen> {
       String data = response.body;
       print(data);
 
-      var temperature = jsonDecode(data)['main']['temp'];
-      var condition = jsonDecode(data)['weather'][0]['id'];
-      var cityName = jsonDecode(data)['name'];
+      var decodedData = jsonDecode(data);
+
+      double temperature = decodedData['main']['temp'];
+      int condition = decodedData['weather'][0]['id'];
+      String cityName = decodedData['name'];
+
+      print(temperature);
+      print(condition);
+      print(cityName);
     } else {
       print(response.statusCode);
     }
