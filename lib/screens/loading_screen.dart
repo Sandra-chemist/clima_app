@@ -21,8 +21,20 @@ class _LoadingScreenState extends State<LoadingScreen> {
     print(location.longitude);
   }
 
+  void getData() async {
+    Response response = await get(Uri.parse(
+        'https://api.openweathermap.org/data/2.5/weather?lat=44.34&lon=10.99&appid=3ae4059ead35a9827fe77d59cd36f4fc'));
+
+    if (response.statusCode == 200) {
+      String data = response.body;
+    } else {
+      print(response.statusCode);
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
+    getData();
     return Scaffold();
   }
 }
