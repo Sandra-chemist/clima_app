@@ -3,6 +3,8 @@ import 'package:clima_app/services/location.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert';
 
+const apiKey = '3ae4059ead35a9827fe77d59cd36f4fc';
+
 class LoadingScreen extends StatefulWidget {
   @override
   _LoadingScreenState createState() => _LoadingScreenState();
@@ -24,7 +26,7 @@ class _LoadingScreenState extends State<LoadingScreen> {
 
   void getData() async {
     http.Response response = await http.get(Uri.parse(
-        'https://api.openweathermap.org/data/2.5/weather?lat=44.34&lon=10.99&appid=3ae4059ead35a9827fe77d59cd36f4fc'));
+        'https://api.openweathermap.org/data/2.5/weather?lat=44.34&lon=10.99&appid=$apiKey'));
 
     if (response.statusCode == 200) {
       String data = response.body;
