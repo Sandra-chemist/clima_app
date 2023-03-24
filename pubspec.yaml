@@ -31,8 +31,13 @@ flutter:
      - images/
 
   fonts:
-    - family: League Spartan
+    - family: Amatic SC Bold
       fonts:
-        - asset: fonts/LeagueSpartan-VariableFont_wght.ttf
+        - asset: fonts/AmaticSC-Bold.ttf
           weight: 700
+    - family: Amatic SC
+      fonts:
+        - asset: fonts/AmaticSC-Regular.ttf
+          weight: 400
+
 
