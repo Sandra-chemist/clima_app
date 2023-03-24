@@ -29,7 +29,7 @@ class _CityScreenState extends State<CityScreen> {
                   onPressed: () {
                     Navigator.pop(context);
                   },
-                  child: const Icon(
+                  child: Icon(
                     Icons.arrow_back_ios,
                     size: 50.0,
                   ),
@@ -51,7 +51,7 @@ class _CityScreenState extends State<CityScreen> {
                 onPressed: () {
                   Navigator.pop(context, cityName);
                 },
-                child: const Text(
+                child: Text(
                   'Get Weather',
                   style: kButtonTextStyle,
                 ),
