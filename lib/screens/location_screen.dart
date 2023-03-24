@@ -50,7 +50,7 @@ class _LocationScreenState extends State<LocationScreen> {
         //padding: EdgeInsets.all(20.0),
         decoration: BoxDecoration(
           image: DecorationImage(
-            image: AssetImage('images/background_1.png'),
+            image: AssetImage('images/background1.png'),
             fit: BoxFit.cover,
             colorFilter: ColorFilter.mode(
                 Colors.white.withOpacity(0.8), BlendMode.dstATop),
