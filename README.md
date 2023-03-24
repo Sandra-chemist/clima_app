@@ -1,16 +1,10 @@
-# clima_app
+# Clima App
 
-A new Flutter project.
+- A Flutter project
+- App is used to check current weather
+- App allows fetching the location
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![1](https://user-images.githubusercontent.com/96838309/227525359-ae537797-94bb-4cc6-a918-87988fb3bb2f.PNG)
+![3](https://user-images.githubusercontent.com/96838309/227525379-fac79416-54f2-49bd-88c6-e51bbcd516a5.PNG)
+![4](https://user-images.githubusercontent.com/96838309/227525418-c4af7d26-0838-46c6-aaa2-ddb249049e1d.PNG)
+![5](https://user-images.githubusercontent.com/96838309/227525450-55c05fac-b5c2-467e-9ff6-800179265628.PNG)
