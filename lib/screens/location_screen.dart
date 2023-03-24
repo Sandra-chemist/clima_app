@@ -17,13 +17,15 @@ class _LocationScreenState extends State<LocationScreen> {
   @override
   void initState() {
     super.initState();
-    print(widget.locationWeather);
+    updateUI(widget.locationWeather);
   }
 
   void updateUI(dynamic weatherData) {
     temperature = weatherData['main']['temp'];
     condition = weatherData['weather'][0]['id'];
     cityName = weatherData['name'];
+
+    print(temperature);
   }
 
   @override
